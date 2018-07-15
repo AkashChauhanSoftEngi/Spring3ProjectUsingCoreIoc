@@ -1,9 +1,10 @@
 # SpringProjectWithoutAppServer
 
 * Spring 3 + IOC (Core Container), Example
+* This container is called Lazy containe as it works On Demand only. 
 * Used BeanFactory Interface, and used XmlBeanFactory Implementation class
 * When using XmlBeanFactory as Core Container and you call getBean() method then only your object is created
-  not on applicationContext.xml loading time like ClassPathXmlApplicationContext(). This this called On Demand only.
+  not on applicationContext.xml loading time like ClassPathXmlApplicationContext(). 
 * XmlBeanFactory is called driver class to run IOC container from main method.
 * Used applicationContext.xml for defining beans
 * Spring requires Spring JAR/Libraries and JDK Libraries to run an Spring based application 
