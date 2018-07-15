@@ -3,7 +3,7 @@
 * Spring 3 + IOC (Core Container), Example
 * Used BeanFactory Interface, and used XmlBeanFactory Implementation class
 * When using XmlBeanFactory as Core Container and you call getBean() method then only your object is created
-  not on applicationContext.xml loading time like ClassPathXmlApplicationContext().
+  not on applicationContext.xml loading time like ClassPathXmlApplicationContext(). This this called On Demand only.
 * XmlBeanFactory is called driver class to run IOC container from main method.
 * Used applicationContext.xml for defining beans
 * Spring requires Spring JAR/Libraries and JDK Libraries to run an Spring based application 
