@@ -8,14 +8,14 @@
 * We need a driver class [XmlBeanFactory] to run Spring container[IOC], which implements BeanFactory Interface
 
 ```XML
-  <bean id="studentbean" class="com.java.spring.Student">  
-    <property name="name" value="Vimal Jaiswal"></property>  
-  </bean>
+ 	<bean id="studentbean" class="com.java.spring.Student">  
+    		<property name="name" value="Vimal Jaiswal"></property>  
+  	</bean>
 ```
 
 ```java
-    ClassPathResource resource = new ClassPathResource("applicationContext.xml");
-		BeanFactory factory = new XmlBeanFactory(resource);
+	ClassPathResource resource = new ClassPathResource("applicationContext.xml");
+ 	BeanFactory factory = new XmlBeanFactory(resource);
 ```
 
 > **###1. Technologies**
