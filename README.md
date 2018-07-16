@@ -1,4 +1,4 @@
-# SpringProjectWithoutAppServer
+# Spring3ProjectUsingCoreIoc
 
 * Spring 3 + IOC (Core Container), Example
 * This container is called Lazy containe as it works On Demand only. 
