@@ -1,7 +1,7 @@
 # Spring3ProjectUsingCoreIoc
 
 * Spring 3 + IOC (Core Container), Example
-* This container is called Lazy containe as it works On Demand only. 
+* This container is called Lazy container as it works On Demand only. 
 * Used BeanFactory Interface, and used XmlBeanFactory Implementation class
 * When using XmlBeanFactory as Core Container and you call getBean() method then only your object is created
   not on applicationContext.xml loading time like ClassPathXmlApplicationContext(). 
